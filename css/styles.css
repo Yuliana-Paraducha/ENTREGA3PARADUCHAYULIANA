@@ -1,0 +1,9 @@
+/*definimos color personalizado1*/
+.navbar-blue {
+  background-color: #0a497b;
+}
+.navbar-blue:hover {
+  background-color: lighten #0a497b, 20%;
+}
+
+/*# sourceMappingURL=styles.css.map */
