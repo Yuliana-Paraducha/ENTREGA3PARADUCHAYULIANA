@@ -2,8 +2,8 @@
 .navbar-blue {
   background-color: #0a497b;
 }
-.navbar-blue:hover {
-  background-color: lighten #0a497b, 20%;
+.navbar-blue .navbar-nav .nav-link.text-white:hover {
+  color: #cb3424 !important;
 }
 
 /*# sourceMappingURL=styles.css.map */

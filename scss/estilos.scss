@@ -3,7 +3,11 @@ $color-personalizado1: #0a497b; /*definimos color personalizado1*/
 .navbar-blue {
     background-color: $color-personalizado1;
 
-    &:hover { 
-        background-color: lighten ($color-personalizado1,20%);
+    .navbar-nav {
+        .nav-link.text-white {
+            &:hover { 
+                color: #cb3424 !important;
+            }
+        }
     }
 }
