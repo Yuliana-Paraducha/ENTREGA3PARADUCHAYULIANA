@@ -11,3 +11,16 @@ $color-personalizado1: #0a497b; /*definimos color personalizado1*/
         }
     }
 }
+footer {
+    background-color: $color-personalizado1;
+    a {
+        text-decoration: none;
+        color: white;
+        &:hover {
+            color: red;
+       } 
+    }
+}
+
+
+    
