@@ -21,6 +21,12 @@ footer {
        } 
     }
 }
-
+.micarousel {
+    height: 650px; /* Ajusta la altura según tus necesidades */
+    .carousel-inner img {
+        width: 100%; /* Garantiza que la imagen ocupe todo el ancho del contenedor */
+        height: auto; /* Mantiene la proporción original de la imagen */
+      }
+    }
 
     

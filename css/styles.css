@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*definimos color personalizado1*/
 .navbar-blue {
   background-color: #0a497b;
@@ -15,6 +16,14 @@ footer a {
 }
 footer a:hover {
   color: red;
+}
+
+.micarousel {
+  height: 650px; /* Ajusta la altura según tus necesidades */
+}
+.micarousel .carousel-inner img {
+  width: 100%; /* Garantiza que la imagen ocupe todo el ancho del contenedor */
+  height: auto; /* Mantiene la proporción original de la imagen */
 }
 
 /*# sourceMappingURL=styles.css.map */
