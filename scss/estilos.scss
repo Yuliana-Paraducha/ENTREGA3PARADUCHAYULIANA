@@ -28,5 +28,223 @@ footer {
         height: auto; /* Mantiene la proporción original de la imagen */
       }
     }
+    .container {
+        // Agrega estilos para el contenedor si es necesario
+        .row {
+          // Agrega estilos para la fila si es necesario
+          .col-md-6 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; // Alinea los elementos al centro verticalmente
+             text-align: justify; // Alinea el texto al centro horizontalmente
+            padding-top: 200px;
+            padding-bottom: 50px;
+            padding-left: 50px;
+            padding-right: 50px;
+            font-family: 'Arial', sans-serif; // Cambia la fuente del texto
+            font-size: 25px; // Cambia el tamaño de la fuente
+            width: 50%; // Hace que el texto ocupe el porcentaje que le indico de todo el ancho disponible
+               
+            // Puedes ajustar el valor según tus preferencias
+
+                
+                              
+            img {
+              width: 700px; // Haz que la imagen ocupe el 100% del ancho de su contenedor
+              height: 500px; // Establece la altura deseada para la imagen (ajusta según sea necesario)
+              padding-top: 10px;
+              padding-bottom: 50px;
+              padding-left: 50px;
+              padding-right: 50px;
+              // Otros estilos personalizados para la imagen
+            
+          }
+        }
+      }
+    }
+    .page-especifica {
+        p, img, h2, li, {
+            padding: 10px; // Agrega padding a los párrafos e imágenes específicamente en esta página
+            margin: 10px;
+            justify-content: center; // Alinea los elementos al centro verticalmente
+            text-align: justify; // Alinea el texto al centro horizontalmente
+            width: 100%;
+          }
+    }
+    .formulario {
+        padding: 100px;
+    }
+
+    .mapauno {
+        padding: 100px;
+        padding-left: 650px !important;
+        width: 100%;
+    }
+    .row {
+        .modificable {
+                padding: 100px;
+                padding-left: 300px;
+                text-decoration: none;
+                ul {
+                    li {
+                        list-style-type: none;
+                }
+        }
+    }
+}
+
+
+    .enlacewhatsapp {
+            text-decoration: none;
+            color: black;
+            &:hover {
+                color: #cb3424 !important;
+            }
+        }
+
+        .faq-container {
+            max-width: 800px;
+            margin: 20px auto;
+        }
+        
+        .faq-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            padding: 15px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .h3new {
+            color: #333;
+            padding-left: 450px !important;
+            padding-bottom: 50px;
+            padding-top: 50px;
+        }
+        
+        p {
+            color: #666;
+        }
+
+        .testimonials-container {
+            max-width: 800px;
+            margin: 50px auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+          }
+          
+          .testimonial {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+            width: 48%;
+            box-sizing: border-box;
+          
+            p {
+              margin-bottom: 15px;
+              font-size: 16px;
+              line-height: 1.6;
+            }
+          
+            .author {
+              font-style: italic;
+              font-size: 14px;
+              color: #888;
+            }
+          }
+    
+    
+
+    @media (max-width: 1250px) {
+        .container {
+          .row {
+            .col-md-6 {
+              width: 100%;
+              text-align: center;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+      
+              img {
+                width: 100%; /* Ajusta el ancho al 100% del contenedor */
+                padding: 0;
+                height: auto;
+                margin: 0;
+                border: 0;
+                margin-top: -10rem !important;
+                margin-bottom: -2rem !important;
+                    }
+      
+              p {
+                width: 100%;
+                text-align: justify; /* Alinea el texto a la izquierda */
+                padding: 0;
+                border: 0;
+                margin-top: -10rem !important;
+                margin-bottom: -5rem !important;
+
+                              
+              }
+            }
+        }
+    }
+    }
+          .formulario {
+            width: 100%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: justify;
+            padding-left: 160px;
+
+   }
+         .modificable {
+            width: 100%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: justify;
+            padding-right: 80px !important;
+            padding-left: 160px !important;
+           
+           
+
+}
+         .mapauno {
+            width: 100%; /* Ajusta el ancho al 100% del contenedor */
+            padding: 0;
+            padding-left: 160px !important;
+            padding-bottom: 20px;
+            height: auto;
+            margin: 0;
+            border: 0;
+            margin-top: 0rem !important;
+            margin-bottom: 0rem !important;
+         }
+
+      
+
+
+      
+      
+     
+        
+    
+
+      
+
+      
+
+  
+      
+
+      
+
+
 
     
